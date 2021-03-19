@@ -1,7 +1,7 @@
 # aula-snakegame
 Snake game desenvolvido durante aulas na Digital Innovation One
 
-## Mudanças feitas em relação ao proeto original
+## Mudanças feitas em relação ao projeto original
 
  * Cores alteradas da "cobrinha" e da "comida";
  * Adicionado contador de pontos para cada comida coletada;
