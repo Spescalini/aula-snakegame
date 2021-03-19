@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(50, 77, 24);
+    transform: 1s ease;
+    display: flex;
+}
+
+.container-game{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    align-content: flex-start;
+    flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5px;
+}
+
+.descricao{
+    margin-top: 20px;
+}
+
+.snake{
+    margin-top: 35px;
+}
+
+
+.rank{
+    color: blue;
+    font-size: larger;
+    align-self: center;
+}

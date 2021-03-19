@@ -6,9 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
     <script defer src="/game.js"></script>
-    <title>Document</title>
+    <title>Snake Game DIO</title>
 </head>
 <body>    
-    <canvas id="snake" width="512" height="512"></canvas>
+    <div class="container-titulo">
+        <h1 class="titulo">  Snake Game Clássico</h1>
+    </div>
+    <div class="container-game">
+        <div class="descricao">
+            <h3>Game desenvolvido durante Bootcamp da Digital Innovation One</h3>        
+        </div>
+        <div>
+            <p class ="desc"> Utilize as setas do seu teclado para controlar </p>
+            <p class="rank" onchange="dificult(this)"></p>
+        </div>
+            <canvas id="snake" width="512" height="512"></canvas>
+        </div>
+    </div>
 </body>
 </html>
